@@ -20,6 +20,9 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.3"
   spec.add_development_dependency "rake"
+  spec.add_development_dependency "google-api-client"
+  spec.add_development_dependency "launchy"
+
 
   spec.add_dependency "google_drive", "~> 0.3.5"
 end

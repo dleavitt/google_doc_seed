@@ -21,6 +21,8 @@ Or install it yourself as:
 Get a [[Google OAuth2 token]](https://developers.google.com/oauthplayground)
 with the spreadsheet scope.
 
+Or check out `examples/full.rb` for help generating one more easily.
+
 
 Then do this:
 
