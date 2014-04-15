@@ -15,7 +15,7 @@ class GoogleDocSeed
     client.authorization.redirect_uri = 'urn:ietf:wg:oauth:2.0:oob'
     client.authorization.scope = 'https://spreadsheets.google.com/feeds'
     Launchy.open(client.authorization.authorization_uri)
-    STDOUT.puts 'Enter authorization code: '
+    STDERR.puts 'Enter authorization code: '
     client.authorization.code = STDIN.gets.chomp
     client.authorization.fetch_access_token!
   end
